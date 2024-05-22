@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <script src="https://kit.fontawesome.com/aa4f280ac6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -13,28 +13,69 @@
 <body>
     <header>
         <nav>
+            <div class="logo">
+                <a href="index.html">ThriftedVintage</a>
+            </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
-                <li><a href="contact.html">contact us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="cart.html">Checkout</a></li>
             </ul>
-            <div class="fa-solid fa-cart-shopping">
-
+            <div class="cart">
+                <a href="cart.html" class="fa-solid fa-cart-shopping"></a>
             </div>
         </nav>
-        <h1>Welcome to the 90s Fashion Boutique!</h1>
     </header>
 
+    <main>
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Contact Form</h2>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                    <div id="formMessages"></div>
+                </form>
+            </div>
+            <div class="store-info">
+                <h2>Store Hours & FAQs</h2>
+                <p>Shop our physical location in the heart of NODA Charlotte, NC</p>
+                <p>123 E 36th, Charlotte, NC</p>
+                <h3>Hours</h3>
+                <p>Tue-Fri 12-6</p>
+                <p>Sat 11-5</p>
+                <p>Sun 11-3</p>
+                <h3>Return Policy</h3>
+                <p>Returns for sizing and simple preference issues are not accepted as all items are listed with measurements.</p>
+                <p> We cannot refund purchase for simple shipping entry error.</p>
+                <h3>When will I receive my item?</h3>
+                <p>All items are shipped within two days, and are typically delivered in 3-5 days.</p>
+                <h3>How do I get a stain out of my piece?</h3>
+                <p>All items are washed before being sold, but some pieces may have some spots. A tip to get rid of or lighten stains is to soak the piece in Oxyclean for 24 hours and wash. If you live in a sunny, and warm climate, before washing, let the piece sit in the sun for an hour and then wash.</p>
+            </div>
+        </div>
+    </main>
 
-
-
-
-    <footer class="footerlinks">
-        <a href="https://www.facebook.com" class="fa fa-facebook" aria-label="facebook link"></a>
-        <a href="https://www.linkedin.com" class="fa fa-linkedin" aria-label="linkedin link"></a>
-        <a href="https://www.instagram.com" class="fa fa-instagram" aria-label="instagram link"></a>
-        <p> © 2024 BizWiz. All rights reserved | 123 Fifth Avenue, NY 10160, New York, USA | Phone: 800-123-456 | Email:
-            contact@BizWiz.com</p>
+    <footer>
+        <div class="footerlinks">
+            <a href="https://www.facebook.com" class="fa fa-facebook" aria-label="facebook link"></a>
+            <a href="https://www.linkedin.com" class="fa fa-linkedin" aria-label="linkedin link"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram" aria-label="instagram link"></a>
+        </div>
+        <p>&copy; 2024 ThriftedVintage. All rights reserved | 123 E 36th, Charlotte, NC USA | Phone:
+            800-123-456 | Email: contact@thriftedvintage.com</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
+
+</html>

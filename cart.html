@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
-    <link rel="stylesheet" href="shop.css">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
     <script src="https://kit.fontawesome.com/aa4f280ac6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -26,16 +28,11 @@
         </nav>
     </header>
 
-    <main>
-        <div class="shop-header">
-            <h1>Start Shopping</h1>
-            <select id="sortOptions">
-                <option value="priceAsc">Price: Low to High</option>
-                <option value="priceDesc">Price: High to Low</option>
-            </select>
-        </div>
-        <section class="product-container">
-        </section>
+    <main class="cart-page">
+        <h1>Your Shopping Cart</h1>
+        <h2>Free shipping on orders over $50</h2>
+        <h3>Your shopping cart is empty</h3>
+        <button onclick="window.location.href='shop.html'">Continue Shopping</button>
     </main>
 
     <footer>
@@ -49,4 +46,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

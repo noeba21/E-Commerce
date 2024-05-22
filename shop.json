@@ -1,114 +1,114 @@
 [
-    {
-        "id": "1",
-        "Name": "Bird & Magic Bacelona '92 Olympic Tee",
-        "Size": "L",
-        "Price": "$120.00",
-        "Description": "Never Worn Rare vintage black T-shirt featuring Larry Bird and Magic Johnson, together at the 1992 Barcelona Olympics",
-        "Photo": "images/bird&magic.jpg"
-    },
-    {
-        "id": "2",
-        "Name": "Larry Bird Shootist Maximus",
-        "Size": "M",
-        "Price": "$75",
-        "Description": "Used Super rare Vintage 1980s Larry Bird Boston Celtics Shootist Maximus Cartoon T-shirt",
-        "Photo": "images/bird.jpg"
-    },
-    {
-        "id": "3",
-        "Name": "Vintage Charlotte Hornets Jacket",
-        "Size": "XL",
-        "Price": "$100",
-        "Description": "Rarely Used Rare Vintage Hornets NBA Puffer Jacket",
-        "Photo": "images/charlottehornetsjacket1.0.jpg"
-    },
-    {
-        "id": "4",
-        "Name": "Vintage 90s Single Stitch David Robinson T-shirt",
-        "Size": "L",
-        "Price": "$120.00",
-        "Description": "Used Black Vintage 90s San AAntonio Spurs David Robinson Single Stitch Shirt",
-        "Photo": "images/davidrobinson1.0.jpg"
-    },
-    {
-        "id": "5",
-        "Name": "Devil Rays Jacket",
-        "Size": "XL",
-        "Price": "$180",
-        "Description": "Rarely Used Rare 90s Vintage STARTER Tampa Bay Rays Diamond Collection Satin Jacket",
-        "Photo": "images/devilraysjacket1.0.jpg"
-    },
-    {
-        "id": "6",
-        "Name": "Charlotte Hornets Tshirt",
-        "Size": "L",
-        "Price": "$80",
-        "Description": "Used Super Rare Vintage Charlotte Hornets Tshirt",
-        "Photo": "images/hornets3.0.jpg"
-    },
-    {
-        "id": "7",
-        "Name": "Vintage Charlotte Hornets Tshirt",
-        "Size": "M",
-        "Price": "$60",
-        "Description": "Used Single Stitch Black Rare Vintage Charlotte Hornets Tshirt",
-        "Photo": "images/hornetstee1.0.jpg"
-    },
-    {
-        "id": "8",
-        "Name": "Rare Vintage Hornets Training Camp Tshirt",
-        "Size": "M",
-        "Price": "$60",
-        "Description": "Used Single Stitch Purple Rare Vintage Hornets Training Camp Tshirt",
-        "Photo": "images/hornetstrainingcamp.jpg"
-    },
-    {
-        "id": "9",
-        "Name": "Looney Tunes New York Jets Tshirt",
-        "Size": "M",
-        "Price": "$45",
-        "Description": "Used Vintage Black Looney Tunes New Jets Shirt",
-        "Photo": "images/looneytunesjets.jpg"
-    },
-    {
-        "id": "10",
-        "Name": "Super Rare Nike Soccer Jacket",
-        "Size": "XL",
-        "Price": "$120.00",
-        "Description": "Rarely Used Super Rare Nike Soccer Jacket",
-        "Photo": "images/nikesoccerjacket.jpg"
-    },
-    {
-        "id": "11",
-        "Name": "Vancouver Grizzlies Tshirt",
-        "Size": "M",
-        "Price": "$60",
-        "Description": "Used Black Vintage Vancouver Grizzlies Tshirt",
-        "Photo": "images/vancouvergrizzlies.jpg"
-    },
-    {
-        "id": "12",
-        "Name": "Moonstars Vs. Tune Squad",
-        "Size": "M",
-        "Price": "$100",
-        "Description": "Used Black Super Rare Moonstars Vs. Tune Squad Sweaathsirt",
-        "Photo": "images/looneytunessweatshirt.jpg"
-    },
-    {
-        "id": "13",
-        "Name": "Vintage North Carolina Tshirt",
-        "Size": "L",
-        "Price": "$65",
-        "Description": "Rarely Used Vintage Black North Carolina Tarheels Tshirt",
-        "Photo": "images/TarHeelsShirt.jpg"
-    },
-    {
-        "id": "14",
-        "Name": "Vintage Knicks Tshirt",
-        "Size": "L",
-        "Price": "$50",
-        "Description": "Used Black New York Knicks Basketball Tshirt",
-        "Photo": "images/knicks1.0.jpg"
-    }
-]
+        {
+            "class": "1",
+            "Name": "Bird & Magic Bacelona '92 Olympic Tee",
+            "Size": "L",
+            "Price": "$120.00",
+            "Description": "Never Worn Rare vintage black T-shirt featuring Larry Bird and Magic Johnson, together at the 1992 Barcelona Olympics",
+            "Photo": "images/bird&magic.jpg"
+        },
+        {
+            "class": "2",
+            "Name": "Larry Bird Shootist Maximus",
+            "Size": "M",
+            "Price": "$75",
+            "Description": "Used Super rare Vintage 1980s Larry Bird Boston Celtics Shootist Maximus Cartoon T-shirt",
+            "Photo": "images/bird.jpg"
+        },
+        {
+            "class": "3",
+            "Name": "Vintage Charlotte Hornets Jacket",
+            "Size": "XL",
+            "Price": "$100",
+            "Description": "Rarely Used Rare Vintage Hornets NBA Puffer Jacket",
+            "Photo": "images/charlottehornetsjacket1.0.jpg"
+        },
+        {
+            "class": "4",
+            "Name": "Vintage 90s Single Stitch David Robinson T-shirt",
+            "Size": "L",
+            "Price": "$120.00",
+            "Description": "Used Black Vintage 90s San AAntonio Spurs David Robinson Single Stitch Shirt",
+            "Photo": "images/davidrobinson1.0.jpg"
+        },
+        {
+            "class": "5",
+            "Name": "Devil Rays Jacket",
+            "Size": "XL",
+            "Price": "$180",
+            "Description": "Rarely Used Rare 90s Vintage STARTER Tampa Bay Rays Diamond Collection Satin Jacket",
+            "Photo": "images/devilraysjacket1.0.jpg"
+        },
+        {
+            "class": "6",
+            "Name": "Charlotte Hornets Tshirt",
+            "Size": "L",
+            "Price": "$80",
+            "Description": "Used Super Rare Vintage Charlotte Hornets Tshirt",
+            "Photo": "images/hornets3.0.jpg"
+        },
+        {
+            "class": "7",
+            "Name": "Vintage Charlotte Hornets Tshirt",
+            "Size": "M",
+            "Price": "$60",
+            "Description": "Used Single Stitch Black Rare Vintage Charlotte Hornets Tshirt",
+            "Photo": "images/hornetstee1.0.jpg"
+        },
+        {
+            "class": "8",
+            "Name": "Rare Vintage Hornets Training Camp Tshirt",
+            "Size": "M",
+            "Price": "$60",
+            "Description": "Used Single Stitch Purple Rare Vintage Hornets Training Camp Tshirt",
+            "Photo": "images/hornetstrainingcamp.jpg"
+        },
+        {
+            "class": "9",
+            "Name": "Looney Tunes New York Jets Tshirt",
+            "Size": "M",
+            "Price": "$45",
+            "Description": "Used Vintage Black Looney Tunes New Jets Shirt",
+            "Photo": "images/looneytunesjets.jpg"
+        },
+        {
+            "class": "10",
+            "Name": "Super Rare Nike Soccer Jacket",
+            "Size": "XL",
+            "Price": "$120.00",
+            "Description": "Rarely Used Super Rare Nike Soccer Jacket",
+            "Photo": "images/nikesoccerjacket.jpg"
+        },
+        {
+            "class": "11",
+            "Name": "Vancouver Grizzlies Tshirt",
+            "Size": "M",
+            "Price": "$60",
+            "Description": "Used Black Vintage Vancouver Grizzlies Tshirt",
+            "Photo": "images/vancouvergrizzlies.jpg"
+        },
+        {
+            "class": "12",
+            "Name": "Moonstars Vs. Tune Squad",
+            "Size": "M",
+            "Price": "$100",
+            "Description": "Used Black Super Rare Moonstars Vs. Tune Squad Sweaathsirt",
+            "Photo": "images/looneytunessweatshirt.jpg"
+        },
+        {
+            "class": "13",
+            "Name": "Vintage North Carolina Tshirt",
+            "Size": "L",
+            "Price": "$65",
+            "Description": "Rarely Used Vintage Black North Carolina Tarheels Tshirt",
+            "Photo": "images/TarHeelsShirt.jpg"
+        },
+        {
+            "class": "14",
+            "Name": "Vintage Knicks Tshirt",
+            "Size": "L",
+            "Price": "$50",
+            "Description": "Used Black New York Knicks Basketball Tshirt",
+            "Photo": "images/knicks1.0.jpg"
+        }
+    ]
